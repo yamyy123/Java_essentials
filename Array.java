@@ -51,6 +51,12 @@ public class Array {
         }
 
         // this is the example of jagged array
+
+        // int randomvalue = (int) Math.random()*10; // this is rapped by (int) the following function returns double value and we have typecasted it
+        // since Math.random() only gives 0.0 to 1.0 we need to multiply it with 10 and then only we need to type cast it.
+
+        int randomvalue = (int)(Math.random()*10);
+        System.out.println(randomvalue);
         
     }
 }
